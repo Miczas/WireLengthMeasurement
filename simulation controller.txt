@@ -1,0 +1,37 @@
+
+add_force {/controller/clk} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/controller/nrst} -radix hex {0 0ns}
+add_force {/controller/start} -radix hex {0 0ns}
+add_force {/controller/echo} -radix hex {0 0ns}
+
+run 10 ns
+add_force {/controller/nrst} -radix hex {1 0ns}
+
+run 100 ns
+add_force {/controller/start} -radix hex {1 0ns}
+run 50 ns
+add_force {/controller/echo} -radix hex {1 0ns}
+run 50 ns
+add_force {/controller/echo} -radix hex {0 0ns}
+run 150 ns
+add_force {/controller/echo} -radix hex {1 0ns}
+run 150 ns
+add_force {/controller/echo} -radix hex {0 0ns}
+run 150 ns
+add_force {/controller/start} -radix hex {0 0ns}
+run 150 ns
+
+run 100 ns
+add_force {/controller/start} -radix hex {1 0ns}
+run 50 ns
+add_force {/controller/echo} -radix hex {1 0ns}
+run 50 ns
+add_force {/controller/echo} -radix hex {0 0ns}
+run 150 ns
+add_force {/controller/echo} -radix hex {1 0ns}
+run 150 ns
+add_force {/controller/echo} -radix hex {0 0ns}
+run 150 ns
+add_force {/controller/start} -radix hex {0 0ns}
+run 150 ns
+

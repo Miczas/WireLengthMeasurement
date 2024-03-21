@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="demoPietPMODA" location="C:/Xilinx/Fontys/projects/MO3proof/workspace/demoPietPMODA" platform="C:/Xilinx/Fontys/projects/MO3proof/workspace/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="demoPietPMODA_system" sysConfig="design_1_wrapper_1" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="73b420010d435eb84c26241ce1848e24">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.268072737" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.41708242" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

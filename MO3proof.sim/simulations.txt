@@ -1,0 +1,14 @@
+add_force {/pulse_generator/generate_pulse} -radix hex {0 0ns}
+add_force {/pulse_generator/clk} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/pulse_generator/nrst} -radix hex {0 0ns}
+run 10 ns
+add_force {/pulse_generator/nrst} -radix hex {1 0ns}
+
+run 100 ns
+add_force {/pulse_generator/generate_pulse} -radix hex {1 0ns}
+run 10 ns
+add_force {/pulse_generator/generate_pulse} -radix hex {0 0ns}
+run 2000 ns
+
+
+

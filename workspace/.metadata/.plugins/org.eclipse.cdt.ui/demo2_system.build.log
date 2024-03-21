@@ -1,0 +1,10 @@
+09:49:41 **** Incremental Build of configuration Debug for project demo2_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 55001 C:/Xilinx/Fontys/projects/MO3proof/workspace/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm standalone_ps7_cortexa9_0 C:/Xilinx/Fontys/projects/MO3proof/workspace/demo2_system/Debug/system.bif
+sdcard_gen --xpfm C:/Xilinx/Fontys/projects/MO3proof/workspace/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm --sys_config design_1_wrapper_1 --bif C:/Xilinx/Fontys/projects/MO3proof/workspace/demo2_system/Debug/system.bif --bitstream C:/Xilinx/Fontys/projects/MO3proof/workspace/demo2/_ide/bitstream/design_1_wrapper.bit --elf C:/Xilinx/Fontys/projects/MO3proof/workspace/demo2/Debug/demo2.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Xilinx/Fontys/projects/MO3proof/workspace/demo2/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2022.1/bin/bootgen  -image C:/Xilinx/Fontys/projects/MO3proof/workspace/demo2_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+09:49:48 Build Finished (took 7s.135ms)
+
